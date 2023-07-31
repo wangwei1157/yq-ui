@@ -9,7 +9,8 @@
     "lint": "vue-cli-service lint",
     "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
     "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
-    "lib": "vue-cli-service build --target lib --name yq-ui --dest lib packages/index.ts"
+    "lib": "vue-cli-service build --target lib --name yq-ui --dest lib packages/index.ts",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "@smallwei/avue": "2.8.13",
